@@ -3,9 +3,11 @@
 // @version      2025-04-18
 // @description  Adds a button to server hop, ignoring any friends currently in-game. Because ropro doesn't exist on firefox.
 // @author       ImmortalRemnant
-// @match         http*://*.roblox.com/games/*
-// @grant         GM_notification
-// @run-at        document-idle
+// @match        http*://*.roblox.com/games/*
+// @grant        GM_notification
+// @run-at       document-idle
+// @updateURL    https://raw.githubusercontent.com/ImmortalRemnant/roblox-serverhop/master/script.js
+// @downloadURL  https://raw.githubusercontent.com/ImmortalRemnant/roblox-serverhop/master/script.js
 // ==/UserScript==
 
 function awaitElement(selector, parent = document) {
